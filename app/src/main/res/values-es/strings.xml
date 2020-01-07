@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xml:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Solo Java</string>
+
+<!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name_hint">Cual es tu nombre?</string>
+
+<!-- Header for the topping select section [CHAR LIMIT=12] -->
+    <string name="toppings_text">complementos</string>
+
+<!-- whipped  cream option text [CHAR LIMIT=13] -->
+    <string name="add_whipped_cream">Crema batida</string>
+
+<!-- chocolate option text [CHAR LIMIT=10] -->
+    <string name="add_chocolate">Chocolate</string>
+
+<!-- Header for the quantity select section [CHAR LIMIT=8] -->
+    <string name="quantity_text">cantidad</string>
+
+<!-- final order button [CHAR LIMIT=8] -->
+    <string name="order_button">ordenar</string>
+
+<!-- Customer Name for the order summary. It will be shown in the format of "Name: Amy"
+where Amy is the user's name. [CHAR LIMIT=50] -->
+    <string name="order_summary_name">Nombre: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+<!-- permanent line for whipped cream question of selection  [CHAR LIMIT=23] -->
+    <string name="add_whipped_cream_permaline">Agregar crema batida?: <xliff:g id="addWhippedCream" example="yes">%s</xliff:g></string>
+
+<!-- permanent line for chocolate question of selection  [CHAR LIMIT=20] -->
+    <string name="add_chocolate_permaline">Agregar chocolate?: <xliff:g id="addChocolate" example="yes">%s</xliff:g></string>
+
+<!-- permanent line for order summary quantity [CHAR LIMIT=10] -->
+    <string name="quantity_permaline">Cantidad: <xliff:g id="quantity" example="15">%d</xliff:g></string>
+
+<!-- permanent line for amount to pay for the order [CHAR LIMIT=8] -->
+    <string name="total_permaline">Total: <xliff:g id="total" example="$14">%s</xliff:g></string>
+
+<!-- permanent gratitude finis line [CHAR LIMIT=20] -->
+    <string name="thank_you_permaline">Gracias!</string>
+
+<!-- Message displayed when the customer tries to request more than 100 coffees -->
+    <string name="too_many_coffees">No se puede pedir más de 100 cafés. :)</string>
+
+<!-- Message displayed when the customer tries to request less than 1 coffee -->
+    <string name="too_few_coffees">No se puede pedir menos de 1 café. :)</string>
+
+</resources>
