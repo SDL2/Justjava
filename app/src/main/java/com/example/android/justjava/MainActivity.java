@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    int quantity = 0; //THE VARIABLE!!!!
+    int quantity = 0; //THE VARIABLE!!!
     double totalPrice;
 
     boolean hasTopping = false;
